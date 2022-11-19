@@ -1,0 +1,11 @@
+name: Version
+
+on: push
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tripteki/version@1.0.0
+        with:
+          message: "Hasby Maulana"
