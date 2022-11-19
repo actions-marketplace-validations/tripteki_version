@@ -1,0 +1,16 @@
+name: "Version Convention"
+description: "Trip Teknologi's Version Convention"
+author: "Trip Teknologi"
+inputs:
+  message:
+    required: true
+    description: "Message of version"
+outputs:
+  target:
+    value: "None"
+    description: "Version target"
+runs:
+  using: "composite"
+  steps:
+    - shell: sh
+      run: echo "Hello World"
